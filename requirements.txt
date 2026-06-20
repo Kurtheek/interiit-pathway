@@ -1,0 +1,6 @@
+pathway
+websocket-client
+feedparser
+yfinance
+pymupdf
+python-dotenv
