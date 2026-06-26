@@ -4,3 +4,10 @@ feedparser
 yfinance
 pymupdf
 python-dotenv
+pathway[all]
+requests
+sentence-transformers
+unstructured
+jmespath
+python-magic
+aiohttp
