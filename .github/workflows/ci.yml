@@ -76,12 +76,12 @@ jobs:
      
 
       - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        # Install the heaviest package first to lock its dependencies
-        pip install "pathway[all]"
-        # Then install the rest
-        pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          # Install the heaviest package first to lock its dependencies
+          pip install "pathway[all]"
+          # Then install the rest
+          pip install -r requirements.txt
 
       # ── 5. Layer 1 — Import check ─────────────────────────────
       # Verifies every P3 import resolves correctly.
