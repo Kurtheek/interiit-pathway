@@ -1,0 +1,5 @@
+docling==2.61.0
+docling-core==2.57.0
+unstructured==0.18.32
+pdfminer-six==20250506
+paddleocr==3.3.1
