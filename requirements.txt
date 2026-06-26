@@ -1,5 +1,5 @@
 pathway==0.31.1
-'pathway[xpack-llm-docs,xpack-llm-local,xpack-llm]'==0.31.1
+pathway[xpack-llm-docs,xpack-llm-local,xpack-llm]==0.31.1
 docling>=2.27,<2.67.0
 docling-core>=2.55,<2.58.0
 sentence-transformers>=2.7.0,<3.0.0   
