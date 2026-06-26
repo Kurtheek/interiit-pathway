@@ -64,14 +64,13 @@ jobs:
       # ── 3. Install OS-level dependencies ─────────────────────
       # libmagic1:  required by python-magic → used by unstructured
       # poppler-utils: required by unstructured for PDF parsing
-      # tesseract-ocr: required by unstructured[local-inference]
+    
       - name: Install OS dependencies
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y --no-install-recommends \
             libmagic1 \
-            poppler-utils \
-            tesseract-ocr
+            poppler-utils 
 
       # ── 4. Upgrade pip and install Python packages ────────────
       - name: Install Python dependencies
