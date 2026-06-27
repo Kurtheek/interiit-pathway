@@ -1,0 +1,7 @@
+{"timestamp": "2026-06-27T10:11:51Z", "event": "FETCH_SUCCESS", "details": "Fetched 22622 SDN entries from OFAC. list_date=2026-06-26"}
+{"timestamp": "2026-06-27T10:21:45Z", "event": "FETCH_ERROR", "details": "FEDFUNDS: HTTP Error 400: Bad Request"}
+{"timestamp": "2026-06-27T10:21:46Z", "event": "FETCH_ERROR", "details": "CPIAUCSL: HTTP Error 400: Bad Request"}
+{"timestamp": "2026-06-27T10:21:46Z", "event": "FETCH_ERROR", "details": "GS10: HTTP Error 400: Bad Request"}
+{"timestamp": "2026-06-27T10:23:02Z", "event": "FETCH_SUCCESS", "details": "FEDFUNDS: 3.63 as of 2026-05-01"}
+{"timestamp": "2026-06-27T10:23:03Z", "event": "FETCH_SUCCESS", "details": "CPIAUCSL: 333.979 as of 2026-05-01"}
+{"timestamp": "2026-06-27T10:23:03Z", "event": "FETCH_SUCCESS", "details": "GS10: 4.48 as of 2026-05-01"}
